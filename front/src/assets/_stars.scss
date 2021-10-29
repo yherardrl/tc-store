@@ -1,0 +1,22 @@
+.starsContainer {
+  width: 25%;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  //   min-height: 10vh;
+  background-color: white;
+}
+
+.starMargins {
+  width: auto;
+  margin: auto;
+}
+
+.inputRadio {
+  display: none;
+}
+
+.stars {
+  cursor: pointer;
+  transition: color 200ms;
+}

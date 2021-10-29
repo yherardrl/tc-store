@@ -1,0 +1,230 @@
+.title {
+  height: 60px;
+  width: 95%;
+  margin: 5px auto;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  color: #e1e8ee;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  button {
+    margin: 5px auto;
+    border: 2px groove white;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+  };
+  .resetCart{
+    border: 1px solid darkkhaki;
+    &:hover{
+      background-color: goldenrod
+    } 
+  }
+  .buybutton{
+    border: 1px solid green;
+    &:hover{
+      background-color: forestgreen
+    } 
+  }
+}
+
+.shopping-cart {
+  width: 80%;
+  height: 100%;
+  min-height: 400px;
+  margin: 25px auto;
+  background: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+
+  button {
+    color: black;
+    width: 30px;
+    height: 40%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    background-image: linear-gradient(
+      bottom,
+      rgb(73, 132, 180) 0%,
+      rgb(97, 155, 203) 100%
+    );
+    background-image: -o-linear-gradient(
+      bottom,
+      rgb(73, 132, 180) 0%,
+      rgb(97, 155, 203) 100%
+    );
+    background-image: -moz-linear-gradient(
+      bottom,
+      rgb(73, 132, 180) 0%,
+      rgb(97, 155, 203) 100%
+    );
+    background-image: -webkit-linear-gradient(
+      bottom,
+      rgb(73, 132, 180) 0%,
+      rgb(97, 155, 203) 100%
+    );
+    background-image: -ms-linear-gradient(
+      bottom,
+      rgb(73, 132, 180) 0%,
+      rgb(97, 155, 203) 100%
+    );
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(73, 132, 180)),
+      color-stop(1, rgb(97, 155, 203))
+    );
+
+    &:hover {
+      background-image: linear-gradient(
+        bottom,
+        rgb(79, 142, 191) 0%,
+        rgb(102, 166, 214) 100%
+      );
+      background-image: -o-linear-gradient(
+        bottom,
+        rgb(79, 142, 191) 0%,
+        rgb(102, 166, 214) 100%
+      );
+      background-image: -moz-linear-gradient(
+        bottom,
+        rgb(79, 142, 191) 0%,
+        rgb(102, 166, 214) 100%
+      );
+      background-image: -webkit-linear-gradient(
+        bottom,
+        rgb(79, 142, 191) 0%,
+        rgb(102, 166, 214) 100%
+      );
+      background-image: -ms-linear-gradient(
+        bottom,
+        rgb(79, 142, 191) 0%,
+        rgb(102, 166, 214) 100%
+      );
+      background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(79, 142, 191)),
+        color-stop(1, rgb(102, 166, 214))
+      );
+    }
+  }
+
+  .item {
+    padding: 13px 30px;
+    height: 120px;
+    display: flex;
+    border-bottom: 1px ridge;
+
+    .delete-btn {
+      color: #fff;
+      width: 34px;
+  position:relative;
+  top:29px;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background: lightseagreen;
+      border: 1px solid fuchsia;
+      
+      &:hover {
+        background-color: red;
+      }
+    }
+    .image {
+      position: relative;
+      width: 120px;
+      height: 100%;
+      margin: 0px 20px;
+      border: 1px solid black;
+      border-radius: 20px;
+      img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+
+    .description {
+      padding: 5px 0px;
+      width: 45%;
+      margin-left: 20px;
+
+      span {
+        display: block;
+        font-size: 14px;
+        color: #43484d;
+        margin: 1px 0px;
+      }
+      .name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .brand {
+        font-size: 18px;
+      }
+    }
+
+    .quantity {
+      width: 15%;
+      display: flex;
+      align-items: center;
+      margin: 0px 15px;
+
+      div {
+        text-align: center;
+        width: 35%;
+        font-size: 16px;
+        color: #43484d;
+        font-weight: 300;
+      }
+    }
+
+    .total-price {
+      margin: auto;
+      width: 10%;
+      text-align: center;
+      font-size: 16px;
+      color: #43484d;
+      font-weight: 300;
+      &:before {
+        content: "$ ";
+      }
+    }
+  }
+}
+
+.confirmPurchase {
+  height: 400px;
+  background-color: black;
+  padding: 10%;
+  h1 {
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: blanchedalmond;
+  }
+  p {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: blanchedalmond;
+  }
+}

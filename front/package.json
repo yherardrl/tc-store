@@ -1,0 +1,39 @@
+{
+  "name": "tcmusic",
+  "version": "1.0.0",
+  "description": "TC STORE",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "author": "The Crew",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "node-sass": "^5.0.0",
+    "react": "latest",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "latest",
+    "react-icons": "^3.11.0",
+    "react-redux": "latest",
+    "react-router-dom": "^4.3.1",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^5.0.0",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.5",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

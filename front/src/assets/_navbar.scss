@@ -1,0 +1,107 @@
+.brand {
+  margin: 0px 20px;
+}
+
+/* .searcher {
+  width: 50%;
+  display: flex;
+  align-items: baseline;
+  margin: auto;
+
+  button {
+    height: 100%;
+    width: 50px;
+    background: #fff;
+  }
+} */
+.btn{
+  margin-right:76px;
+  margin-left:0px;
+  width:100px
+}
+.cartButton {
+  border: 1px solid #7579ff;
+  &:hover{
+    background:-webkit-linear-gradient(left, #7579ff, #b224ef);
+  }
+}
+.buttonSignIn{
+  color:#fff;
+  border: 1px solid #7579ff;
+  &:hover{
+    background:-webkit-linear-gradient(left, #7579ff, #b224ef);
+    color:#fff
+  }
+}
+
+//ICONOS
+.cart {
+  color: #fff;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right:126px;
+  top:30px;
+
+  &:hover {
+    color: rgba(196, 193, 193, 0.988);
+    text-decoration: none;
+  }
+}
+
+.lupitapng {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  top:5px;
+  
+}
+
+.navicon {
+  width: 25px;
+  height: 25px;
+}
+
+.divSearchlupita {
+  width: 50%;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+//dropwdownbutton
+.dropdownbutton {
+  color: "#fff";
+  background-color: "#343a40";
+  text-decoration: "none";
+}
+/* style={{ textDecoration: "none", color: "white", backgroundColor: "#343a40" }} */
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.navbar{
+  height:87px
+}
+.dropdown-item{
+  color:#fff;
+  list-style: none;
+}
+
+/* .link{
+  color: #fff;
+  background: #333;
+} */
+.divsDropNav {
+  color:#fff;
+}
+.divsDropNav:hover{
+  text-decoration: none;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+.container .input{
+	border: 0;
+	outline: none;
+	background: #8b7d77;
+}
+.search_wrap{
+	width: 500px;
+	margin: 30px auto;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 500px;
+	height: 60px;
+}
+
+.search_wrap .search_box .input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 3px;
+  font-size: 18px;
+  background: #fff;
+}
+
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 2px;
+	left: 90%;
+	width: 57px;
+	height: 83%;
+	background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+	z-index: 1;
+	cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover{
+	background: -webkit-linear-gradient(right, #7579ff, #b224ef);	
+}
+
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+}
+
+.search_wrap.search_wrap_3 .search_box .input{
+  padding-right: 80px;
+  border-radius:50px
+}
+.search_wrap.search_wrap_3 .search_box .btn{
+	right: -10px;
+	border-radius: 50%;
+	border: 1px solid #b224ef;
+}
+.input {
+  height: 43px;
+}

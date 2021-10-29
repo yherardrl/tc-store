@@ -1,0 +1,44 @@
+.formulario {
+  max-width: 60%;
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+  border: solid 1px #f1f1f1;
+  background: #fbfbfb;
+  box-shadow: #e6e6e6 0 0 4px;
+  border-radius: 0.25rem;
+  .h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+}
+
+.reviewsContainer{
+  margin: 0 auto;
+  width: 80%;
+  background: transparent;
+  border: 1px solid lightgreen;
+  color:#fff;
+  .reviewsbox{
+    border:2px solid lightcyan;
+    padding: 11px;
+    color:#fff;
+  };
+  .spinner{
+    position: relative;
+    top:30%;
+    left:50%
+   }
+}
+
+
+// .boxsizingBorder {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
